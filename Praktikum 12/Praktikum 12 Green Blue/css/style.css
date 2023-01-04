@@ -1,0 +1,29 @@
+.body-color {
+    background-color: lightskyblue;
+}
+
+.header-color {
+    background-color: cyan;
+}
+.nav-color {
+    background-color: lightgreen;
+}
+
+.aside-color {
+    background-color: yellowgreen;
+}
+
+.content-color {
+    background-color: lightblue;
+}
+
+.section-color {
+    background-color: purple;
+    color: white;
+}
+
+.footer-color {
+    color: black;
+    text-align: center;
+    background-color: cyan;
+}
