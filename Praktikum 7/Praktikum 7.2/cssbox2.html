@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Implementasi CSS Box dan Positioning">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Lambang R">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cssbox2</title>
+        <style>
+        div{float: left; border: 1px solid;  margin:15px 75px;}
+        body{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(100,9,21,1) 0%, rgba(2,125,36,1) 35%, rgba(12,150,200,1) 100%);}
+        .cyan {
+           background-color: cyan;
+           width: 1125px;
+           height: 150px;
+           border-color: black;
+        }
+
+        .magenta {
+           background-color: magenta;
+           width: 225px;
+           height: 225px;
+           border-color: black; 
+       }
+
+       .yellow {
+           background-color: yellow;
+           position: absolute;
+           top: 205px;
+           left: 300px;
+           width: 850px;
+           height: 225px;
+           border-color: black; 
+       }
+
+       .fushcia {
+            position: absolute;
+            top: 460px;
+            background-color: fuchsia;
+            width: 225px;
+            height: 225px;
+            border-color: black; 
+       }
+
+       .black {
+           background-color: black;
+           position: absolute;
+           top: 460px;
+           left: 300px;
+           width: 850px;
+           height: 225px;
+           border-color: white; 
+       }
+
+       main {
+           width: 1280px;
+           height: 720px;
+           border: 1px solid black;
+           padding: 1%;
+       }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="cyan"></div>
+            <div class="magenta"></div>
+            <div class="fushcia"></div>
+            <div class="yellow"></div>
+            <div class="black"></div>
+        </main> 
+    </body>
+</html>
