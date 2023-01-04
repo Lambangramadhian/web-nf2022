@@ -1,0 +1,78 @@
+body {
+    height: 2000px;
+    margin: 10px 0;
+}
+
+fieldset {
+    height: 2000px;
+    position: relative;
+    margin: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(155, 210, 255);
+}
+
+.header {
+    width: 935px;
+    background-color: black;
+}
+
+.profile-image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    display: flex;
+}
+
+section {
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    margin: 0 auto;
+}
+
+div#textBox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #000;
+    overflow-x: scroll;
+    background-image: url(https://i.pinimg.com/564x/79/5c/ab/795cabc4647f73b365e2e6eabd0f34dc.jpg);
+}
+
+.search{
+    width: 800px;
+    margin-left: 120px;
+    margin-bottom: 200px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    border-radius: 100px;
+}
+
+input,
+button {
+    padding: 7px;
+}
+
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.floating {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin: 3px 0;
+}

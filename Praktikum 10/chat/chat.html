@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <fieldset>
+        <legend>Simple Chat Box App</legend>
+        <div class="header"><img class="profile-image" src="https://pm1.narvii.com/7361/7bc8278c4986c0b6205a724fb9d05923b08725d0r1-900-900v2_128.jpg" alt="Profile Picture">
+        <input class="search" type="search" placeholder="search"></div>
+        <h4>Kamu belum memiliki percakapan dengan siapa pun, silakan mencoba Simple Chatbox ini.</h4>
+        <section>
+            <div id="textBox">
+                <strong><p>Simple ChatBox</p></strong>
+                <hr>
+            </div>
+            <div class="floating">
+                <input id="inputText" type="text">
+                <button type="button" onclick="sendMessage()">Kirim</button>
+            </div>
+        </section>
+    </fieldset>
+    <script>
+        function sendMessage() {
+            let text = document.getElementById("inputText").value;
+            let paragraph = document.createElement("P");
+            
+            paragraph.innerHTML = String(text);
+            document.getElementById("textBox").appendChild(paragraph).style.margin="10px";
+        }
+    </script>
+</body>
+</html>

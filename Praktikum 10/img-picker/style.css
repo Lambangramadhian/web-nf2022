@@ -1,0 +1,19 @@
+body{
+    background-color: darkslategrey;
+}
+
+select{
+    padding-top: 7.75%;
+    padding-right: 45.25%;
+    padding-bottom:7.75% ;
+    padding-left: 45.25%;
+    margin: auto;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Pok%C3%A9_Ball_icon.svg);
+    color: red;
+    text-align: justify;
+}
+
+img{
+    border: 10px white solid;
+    border-radius: 5pt;
+}
