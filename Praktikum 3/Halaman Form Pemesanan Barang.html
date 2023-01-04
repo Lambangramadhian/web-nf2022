@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Form pemesanan barang</title>
+</head>
+
+<body style="background-color: beige;width:100%;">
+    <fieldset>
+        <div>
+            <table style="border-style: none; width: 90%;margin-left: auto;margin-right: auto; background-color: lightblue;">
+                <tr>
+                    <td align="center" style="width: 100px;">Home</td>
+                    <td>|</td>
+                    <td align="center" style="width: 200px;">Generate Link</td>
+                    <td>|</td>
+                    <td align="center" style="width: 200px;">Transaction history</td>
+                    <td>|</td>
+                    <td align="center" style="width: 150px;">Policy</td>
+                    <td>|</td>
+                    <td align="center" style="width: 100px;">Logout</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div style="width: 500px; float: left; text-align: center;">
+            <form method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td><img src="Assets/Images/Halaman Form Pemesanan Barang/cloud-2044823_1280.png" alt="Upload" style="width: 200px;margin-left: 200px;"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="">
+                            <input type="submit" value="Upload Picture" style="margin-left: 200px">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            </form>
+        </div>
+        <div style="margin-left: 10px;">
+            <form method="post" action="Halaman Hasil Form Pemesanan Barang.html">
+                <table>
+                    </tr>
+                    <tr>
+                        <td>Title Here</td>
+                        <td>:</td>
+                        <td><input size="35" type="text" name="title here"></td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td>:</td>
+                        <td><textarea name="description" cols="35" rows="5"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Account Number</td>
+                        <td>:</td>
+                        <td><input size="35" type="text" name="account number"></td>
+                    </tr>
+                    <tr>
+                        <td>Bank</td>
+                        <td>:</td>
+                        <td>
+                            <select name="bank" id="bank">
+                                <option value="JPMorgan Chase">JPMorgan Chase</option>
+                                <option value="HSBC">HSBC</option>
+                                <option value="SMBC">SMBC</option>
+                                <option value="LINE Bank">LINE Bank</option>
+                                <option value="BCA">BCA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Account Holder</td>
+                        <td>:</td>
+                        <td><input size="30" placeholder="Name Here" type="text" name="Account holder"></td>
+                    </tr>
+                    <tr>
+                        <td>Transaction</td>
+                        <td>:</td>
+                        <td><input type="number" name="transaction" min="1" max="3"></td>
+                    </tr>
+                </table>
+                <table style="margin-left: 490px;">
+                    <tr>
+                        <td>
+                            <p><strong>*if the transaction is for 3 person, choose 3 from the drop-down list</strong></p>
+                            <p style="color: blue;"><input type="checkbox" name="transaction">Send to Mobile Phone</p>
+                            <p style="color: blue;"><input type="checkbox" name="transaction">Send to email</p>
+                        </td> 
+                    </tr>
+                </table>
+                <table style="margin-left: 490px;">
+                    <tr>
+                        <td>Send to<br>Mobile Phone</td>
+                        <td>:</td>
+                        <td><input size="30" type="text" name="mobile phone"></td>
+                    </tr>
+                    <tr>
+                        <td>Send to Email</td>
+                        <td>:</td>
+                        <td><input size="30" type="text" name="email"></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <input type="submit" value="Generate Number Link" style="margin-left: 490px;background-color: blue; text-align:center;color:white;">
+            </form>
+        </div>
+    </fieldset>
+</body>
+</html>
