@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 3 : Menghitung Biaya Parkir</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+            width: 500px;
+        }
+    </style>
+    <script>
+        function hitungParkir (){
+            let jam_masuk = document.getElementById("masuk").value;
+            let jam_keluar = document.getElementById("keluar").value;
+            let selisih = jam_keluar - jam_masuk;
+            let biaya = 0;
+            const tarif_awal = 3000;
+            const tarif_per_jam = 1000;
+            if (selisih <= 2) {
+                biaya = tarif_awal;
+            } 
+            else {
+                let tambahan_jam = selisih - 2;
+                biaya = tarif_awal + (tarif_per_jam * tambahan_jam);
+            }
+            let output = document.getElementById("biaya").value = "Rp " + biaya;
+        }
+    </script>
+</head>
+<body>
+    <h1>Menghitung Biaya Parkir</h1>
+    <article>
+        <p>
+            Tulislah program untuk menghitung biaya parkir, yang dihitung berdasarkan lama parkir kendaraan, yaitu selisih jam masuk dengan jam keluar kendaraan. Jika parkir 2 jam pertama maka dikenakan biaya parkir 3.000 rupiah, dan per jam berikut nya kena biaya tambahan 1.000 rupiah.
+        </p>
+    </article>
+    <table>
+        <tr>
+            <td>Jam Masuk</td>
+            <td>Jam Keluar</td>
+            <td>Lama</td>
+            <td>Keluaran Biaya</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>10</td>
+            <td>2 jam</td>
+            <td>Rp 3.000</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>11</td>
+            <td>4 Jam</td>
+            <td>Rp 5.000</td>
+        </tr>
+    </table>
+    <br/>
+
+
+    <form>
+        Jam Masuk: <input type="number" id="masuk">
+        <br>
+        Jam Keluar: <input type="number" id="keluar">
+        <br>
+        <input type="button" value="Hitung" onclick="hitungParkir();">
+        <br>
+        Biaya:<input type="text" id="biaya" readonly>
+    </form>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+    background-color: azure;
+}
+
+#header {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: beige ;
+    border-style: outset;
+    border-width: 10px;
+}
+
+#header h1 {
+    color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header blockquote {
+    background-color: yellow;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border: 1px dotted brown;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+div > ul {
+    text-align: center;
+    font-weight: bold;
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.gambar {
+    text-align: center;
+}
+
+#burung_perkutut_jawa {
+    height: 360px;
+    width: 360px;
+}
+
+#burung_suara_emas {
+    height: 320px;
+    width: 320px;
+}
+
+.isi {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#kapital {
+    display: inline;
+    color: blue;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#profil {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.koleksi img {
+    width: 23%;
+}
+
+#beternak {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.promo {
+    font-family: 'lucida sans', 'verdana', 'sans-serif' ;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.promo h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large ;
+    color: red;
+}
+
+.promo h3 {
+    text-align: center;
+    font-weight: bold;
+    background-color: aqua;
+    border: 1px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+.promo h4 {
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo ol {
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+}

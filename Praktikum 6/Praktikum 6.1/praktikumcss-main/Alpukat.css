@@ -1,0 +1,84 @@
+body {    background-color: lightblue;
+    font-family: 'lucida sans', 'verdana', 'sans-serif' ;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+p {
+    text-align: justify;
+    width: fit-content;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+}
+
+.foto {
+    background-color: black;
+}
+
+.foto img {
+    width:23%
+}
+
+.promo {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large ;
+    color: red;
+}
+
+.promo h2 {
+    width: 95%;
+}
+
+.promo h3 {
+    width: 95%;
+}
+
+
+.cod {
+    margin: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cod p {
+    text-align: center;
+    background-color: aqua;
+    border: 1px dotted red;
+    font-weight: bold;
+    color: blue;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.PESAN {
+    text-align: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tombol {
+    font-weight: bold;
+    background-color: yellow;
+    color: red;
+    border: white;
+    border-style: outset;
+    border-width: 3px;
+}

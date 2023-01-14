@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>From Validation</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" onsubmit="return beli(this);">
+            <h1 class="title">Form Validation</h1>
+            <div class="input-control">
+                <label for="username">Nama Pelanggan</label><br>
+                <input required id="username" name="username" type="text" maxlength="30" placeholder="Max 30 Character">
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label><br>
+                <input required id="email" name="email" type="text">
+            </div>
+            <div class="input-control">
+                <label for="jam">Jam Keberangkatan</label><br>
+                <input required id="jam" name="jam" type="time">
+            </div>
+            <div class="input-control">
+                <label for="tujuan">Tujuan Keberangkatan</label><br>
+                <input required id="tujuan" name="tujuan" type="text" placeholder="Input Your Destination">
+            </div>
+            <div class="in<put-control">
+                <label for="tiket"> Jumlah Tiket</label><br>
+                <input required id="tiket" name="tiket" type="number">
+                <div class="error"></div>
+            </div>
+            <button class="button">submit</button>
+        </form>
+    </div>
+</br>
+</br>
+</br>
+    <div class="container hasil" id="hasil">
+        <form id="form">
+            <h1>Result</h1>
+            <div class="input-control">
+                <label>Nama Pelanggan</label><br>
+                <input readonly id="hasil-username" name="username" type="text" maxlength="30">
+            </div>
+            <div class="input-control">
+                <label>Email</label><br>
+                <input readonly id="hasil-email" name="email" type="text">
+            </div>
+            <div class="input-control">
+                <label>Jam Keberangkatan</label><br>
+                <input readonly id="hasil-jam" name="jam" type="time">
+            </div>
+            <div class="input-control">
+                <label> Tujuan Keberangkatan</label><br>
+                <input readonly id="hasil-tujuan" name="tujuan" type="text">
+            </div>
+            <div class="input-control">
+                <label> Jumlah Tiket</label><br>
+                <input readonly id="hasil-tiket" name="tiket" type="number">
+            </div>
+        </form>
+    </div>
+<script src="script.js"></script>
+
+</body>
+
+</html>

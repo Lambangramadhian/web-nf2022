@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman Form Pemesanan Pizza</title>
+    </head>
+    <body>
+            <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+            <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+            <hr/>
+            <form method="post" action="Sukses.html">
+            <table>
+                <tr>
+                    <td><h1>Your Information</h1></td>
+                </tr>   
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input required type="text" size="50" name="customername"/></td>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><input required type="text" size="50" name="address"/></td>
+                </tr>
+                <tr>
+                    <td>No Handphone</td>
+                    <td>:</td>
+                    <td><input required type="text" size="50" name="telephone"/></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input required type="text" size="50" name="email"/></td>
+                </tr>
+                <tr>
+                    <td>Delivery Instructions</td>
+                    <td>:</td>
+                    <td><textarea placeholder="No more than 400 characters long" name="instructions" cols="50" maxlength="400" rows="10"></textarea></td>
+                </tr>
+            </table>
+            <fieldset>
+                    <legend><b>Design Your Dream Pizza</b></legend>
+            <p><b>Crust (Choose one):</b></p>
+            <ul style="list-style: none" ;>
+                <li><input type="radio" name="Crust">Classic white</li>
+                <li><input type="radio" name="Crust">Multigrain</li>
+                <li><input type="radio" name="Crust">Una Melt</li>
+                <li><input type="radio" name="Crust">Cheesy Galore</li>
+                <li><input type="radio" name="Crust">Meat Lovers</li>
+            </ul>
+            <p><b>Toppings (Choose as many as you want)</b></p>
+            <ul style="list-style: none" ;>
+                <li><input type="checkbox" id="topping1" name="topping1" value="White sauce" checked>
+                    <label for="topping1">White Sauce</label></li>
+                <li><input type="checkbox" id="topping2" name="topping2" value="Mozarella Cheese">
+                    <label for="topping2">Mozarella Cheese</label></li>
+                <li><input type="checkbox" id="topping3" name="topping3" value="Pepperoni">
+                    <label for="topping3">Pepperoni</label></li>
+                <li><input type="checkbox" id="topping4" name="topping4" value="Mushrooms">
+                    <label for="topping4">Mushrooms</label></li>
+                <li><input type="checkbox" id="topping5" name="topping5" value="Peppers">
+                    <label for="topping5">Peppers</label></li>
+                <li><input type="checkbox" id="topping6" name="topping6" value="Anchories">
+                    <label for="topping6">Anchories</label></li>
+                <li><input type="checkbox" id="topping7" name="topping7" value="Pineapple">
+                    <label for="topping7">Pineapple</label></li>
+            </ul>
+            <p><b>Number</b></p>
+            <label>How many pizzas:</label><input type="number" name="order" min="1" max="6">
+            <p><input type="submit" value="Bring  me a pizza!">
+            <input type="reset"></p>
+            </form>
+        </fieldset>
+    </body>
+</html>

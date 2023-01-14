@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background-color: goldenrod;
+    padding: 1rem;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+main article{
+    flex: 2;
+    background-color: beige;
+    order: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main aside{
+    flex: 1;
+    background-color: magenta;
+    order: 2;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main nav{
+    flex: 1;
+    background-color: cyan;
+    order: 3;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+footer{
+    background-color: goldenrod;
+    padding: 1rem;
+}

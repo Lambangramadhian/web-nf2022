@@ -1,0 +1,26 @@
+* {
+    margin: 20;
+    padding: 0;
+}
+
+header {
+    background-color: powderblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+header ul {
+    display:flex;
+    list-style: none;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
+
+img {
+    width: 5rem;
+}
